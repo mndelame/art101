@@ -7,3 +7,8 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  #file-structure {
+    width: 100px;
+    height: 300px
+  }
