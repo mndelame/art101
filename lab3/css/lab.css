@@ -4,11 +4,24 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #3b3b3b;
+    background-color: #fdfdfd;
   }
 
   #file-structure {
     width: 100px;
     height: 300px
   }
+
+  body {
+    background-color: #35fd1a;
+    margin: 80px;
+    
+    font-family: Arial;
+    color: rgb(11, 0, 0);
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 2;
+    letter-spacing: .01px;
+}
+      
