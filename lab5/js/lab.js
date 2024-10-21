@@ -1,6 +1,24 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Madison De La Merced
+// Date: October 20, 2024
+
+//Define Variables
+make = "Ford";
+model = "Tarus";
+color = "Rusty";
+year = "1995";
+
+//calulate
+age = 2024 - year;
+
+//output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
+
+
 
 // Constants
 
