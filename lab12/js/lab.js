@@ -1,3 +1,4 @@
+
 /*
   Sorting Hat Program
   This program assigns a Hogwarts house based on the length of the input string.
@@ -32,6 +33,10 @@ document.getElementById("button").addEventListener("click", function () {
     // Determine the house using sortingHat function
     let house = sortingHat(name);
 
+    // Clear any previous output (optional)
+    let outputDiv = document.getElementById("output");
+    outputDiv.innerHTML = ""; // This clears all existing content in the output div
+
     // Create a new paragraph element
     let output = document.createElement("p");
     output.textContent = "The Sorting Hat has sorted you into " + house + "!";
@@ -41,8 +46,10 @@ document.getElementById("button").addEventListener("click", function () {
     output.style.color = "purple";
 
     // Append the paragraph to the output div
-    document.getElementById("output").appendChild(output);
+    outputDiv.appendChild(output);
 });
+
+
 
 
 

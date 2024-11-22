@@ -5,5 +5,12 @@
   max-width: 500px;
 }
 #my-portrait {
-  width: 500px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
+
